@@ -1,7 +1,7 @@
 /* место для вашего кода */
 .header {
     display: grid;
-    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-columns: 1fr 148px 1fr;
     grid-template-areas: 
     "list logo contact";
     margin-top: 92px;
@@ -10,7 +10,6 @@
     width: 1052;
     height: 105px;
     background-color: white;
-    border: 1px, solid red;
     justify-content: space-around;
 }
 
@@ -54,7 +53,7 @@
     grid-area: contact;
     display: grid;
     height: 98px;
-    align-items: start;
+    align-items: center;
     align-content: space-around;
     justify-items: start; /* горизонтальное выравнивание самого текста */
     justify-content: space-around;
@@ -66,7 +65,8 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24,3px;
+    line-height: 24.3px;
+    
 }
 .nop_overflow {
     overflow: hidden;
@@ -121,7 +121,6 @@
     left: 50px;
     width: 1000px;
     height: 355px;
-    border: 1px, solid, red;
     letter-spacing: 0.3em;
     z-index: 3;
     display: grid;
@@ -203,7 +202,6 @@
     margin-right: 24px;
     height: 692px;
     width: 1052px;
-    border: 1px, solid red;
     margin-bottom: 180px;
 }
 .lots__heading {
@@ -289,7 +287,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 25px;
-    border: 1px solid red;
 }
 .about__logo {
     position: absolute;
@@ -365,22 +362,37 @@
     height: 98px;
     left: 50px;
     right: 50px;
-    border: 1px solid red;
     display: flex;
+    justify-content: space-between;
+    justify-items: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24,3px;
   }
+  .footer_contact{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+    font-style: normal;
+  }
   .footer__menu {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
   }
   .footer__social-list-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    width: 240px;
+    height: 49px;
+    gap: 48px;
   }
   .footer__social.link {
-    align-self: self-end;
-    width: 48px;
+
   }
 
