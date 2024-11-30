@@ -6,10 +6,10 @@
   margin-top: 92px;
   margin-left: 24px;
   margin-right: 24px;
-  width: 1052;
+  width: 1052px;
   height: 105px;
   background-color: white;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
 }
 
@@ -22,7 +22,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21, 13px;
+  line-height: 21.13px;
 }
 .header__links-list-item_no-bullet {
   overflow: hidden;
@@ -54,7 +54,6 @@
   grid-area: contact;
   display: grid;
   height: 98px;
-  grid-template-columns: 1fr, 1fr;
   grid-template-areas:
     ". all_contact"
     ". all_contact"
@@ -176,8 +175,7 @@
   top: 655px;
   left: 794px;
   z-index: 3;
-  border: 1px, solid, white;
-  background-color: none;
+  border: 1px solid white;
   background-image: none;
   background: transparent;
   float: left;
@@ -246,7 +244,7 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
-  font-style: solid;
+  font-style: normal;
   color: white;
   text-transform: uppercase;
   text-decoration: underline;
@@ -272,10 +270,13 @@
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .about {
   position: relative;
-  top: 838px;
+  right: -24px;
+  top: -37px;
   width: 1052px;
   height: 595px;
   z-index: 0;
@@ -349,7 +350,7 @@
 }
 .footer {
   position: relative;
-  top: 740px;
+  top: 140px;
   width: 1000px;
   height: 98px;
   left: 50px;
@@ -360,7 +361,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24, 3px;
+  line-height: 24.3px;
 }
 .footer_contact {
   display: flex;
@@ -377,6 +378,7 @@
   align-content: center;
   align-items: center;
   justify-content: start;
+  text-underline-offset: 3px;
 }
 .footer__social-list-item {
   display: grid;
