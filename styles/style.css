@@ -129,7 +129,6 @@
   letter-spacing: 2px;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
 }
 .aligned-text_center {
   text-align: center;
@@ -137,7 +136,6 @@
   font-family: "Raleway", sans-serif;
   line-height: 1;
   font-size: 100px;
-  line-height: 100px;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
@@ -261,7 +259,6 @@
   font-size: 20px;
   font-weight: 400;
   z-index: 3;
-  font-weight: lighter;
 }
 .lots__look-more-link {
   position: absolute;
