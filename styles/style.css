@@ -368,7 +368,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: end;
-  max-width: 240px;
-  max-height: 49px;
   gap: 48px;
+}
+.footer__social_logo {
+  width: 48px;
 }
