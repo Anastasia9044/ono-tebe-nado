@@ -112,12 +112,9 @@
 .aligned-text {
   display: block;
   font-family: "Raleway", sans-serif;
-  line-height: 1;
-  font-size: 100px;
   line-height: 115px;
-  font-weight: 700;
-  letter-spacing: 2px;
   font-size: 100px;
+  font-weight: 700;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -200,7 +197,6 @@
   row-gap: 25px;
   align-content: space-between;
   list-style: none;
-  margin-bottom: 30px;
 }
 
 .card_type {
@@ -317,7 +313,6 @@
   flex-direction: column;
   gap: 24px;
   font-family: "Raleway", sans-serif;
-  font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
