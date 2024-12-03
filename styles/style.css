@@ -199,7 +199,6 @@
 }
 
 .card_type {
-  display: block;
   text-decoration: none;
   position: relative;
   z-index: 0;
